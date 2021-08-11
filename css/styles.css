@@ -1,0 +1,73 @@
+body {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+header {
+background-color: rgb(255, 255, 255);
+} 
+
+nav {
+float: right;
+overflow: hidden;
+text-align: center;
+margin-right: 80px;
+}
+
+ul, li {
+    display: inline-block;
+}
+
+a:link, a:visited {
+    background-color: #934caf;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    
+}
+
+a:hover, a:active {
+    background-color: #6c3483;
+    
+}
+
+#redes {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    margin: -10px;
+    padding-left: 80px;
+}
+
+#header {
+    padding: 35px;
+    
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    align-content: center;
+    float: left;
+    position: relative;
+    margin-left: 80px;
+}
+
+#contacticons {
+    align-content: center;
+    float: left;
+    position: relative;
+    margin-left: 80px;
+}
+
+#socialicons {
+    float: right;
+    overflow: hidden;
+    text-align: center;
+    margin-right: 80px;
+}
+
