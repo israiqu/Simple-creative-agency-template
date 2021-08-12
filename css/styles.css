@@ -1,73 +1,119 @@
-body {
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: FCFCFC;
 }
 
-header {
-background-color: rgb(255, 255, 255);
-} 
+li, a, button, p {
+    font-family:"Montserrat", sans-serif;
+    font-weight: 400;
+}
 
-nav {
-float: right;
-overflow: hidden;
-text-align: center;
-margin-right: 80px;
+h1, h2, h3, h4 {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+h4 {
+    font-weight: 300;
 }
 
 ul, li {
     display: inline-block;
 }
 
-a:link, a:visited {
-    background-color: #934caf;
-    text-decoration: none;
+a {
     color: white;
-    padding: 5px 5px;
-    text-align: center;
-    
-}
-
-a:hover, a:active {
-    background-color: #6c3483;
-    
-}
+    outline: none;
+    text-decoration: none;
+} 
 
 #redes {
     background-color: rgb(36, 36, 36);
     color: white;
-    padding: 20px;
+    padding: 20px 100px;
     height: 100%;
     width: 100%;
     display: inline-block;
-    margin: -10px;
-    padding-left: 80px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
 
-#header {
-    padding: 35px;
-    
+.icons {
+    width: 30px;
+    height: 30px;
+}
+
+#colcontact {
+    float: left;
+    position: relative;
+}
+
+#colsocial {
+    float: right;
+    overflow: hidden;
+}
+
+    #header {
+    padding: 25px 200px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
 
 #logo {
     height: 100px;
     width: 100px;
-    align-content: center;
     float: left;
     position: relative;
-    margin-left: 80px;
 }
 
-#contacticons {
-    align-content: center;
-    float: left;
-    position: relative;
-    margin-left: 80px;
-}
-
-#socialicons {
+nav {
     float: right;
     overflow: hidden;
-    text-align: center;
-    margin-right: 80px;
 }
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li a {
+    color: #6d6d6d;
+    outline: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav_links li a:hover, a:focus, a:active {
+    color: #934caf;
+    /* background-color: #934caf; */
+}
+
+/* .menu {
+    background-color: #934caf;
+    font-size: 20px;
+    padding: 15px 35px;
+    
+} */
+
 
